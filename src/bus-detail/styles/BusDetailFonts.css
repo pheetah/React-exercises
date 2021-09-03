@@ -1,0 +1,736 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./fonts/icomoon.eot?fha8uq');
+    src:  url('./fonts/icomoon.eot?fha8uq#iefix') format('embedded-opentype'),
+      url('./fonts/icomoon.ttf?fha8uq') format('truetype'),
+      url('./fonts/icomoon.woff?fha8uq') format('woff'),
+      url('./fonts/icomoon.svg?fha8uq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-new_refresh_icon:before {
+    content: "\e9a1";
+  }
+  .icon-new_alarm_icon:before {
+    content: "\e9a2";
+  }
+  .icon-new_card_statement_icon:before {
+    content: "\e9a3";
+  }
+  .icon-new_online_charge_icon:before {
+    content: "\e9a4";
+  }
+  .icon-new_home_search_icon:before {
+    content: "\e9a5";
+  }
+  .icon-new_home_networks_icon:before {
+    content: "\e9a6";
+  }
+  .icon-new_home_alerts_icon:before {
+    content: "\e9a7";
+  }
+  .icon-new_home_poi_icon:before {
+    content: "\e9a8";
+  }
+  .icon-new_home_bus_routes_icon:before {
+    content: "\e9a9";
+  }
+  .icon-new_home_nearest_points_icon:before {
+    content: "\e9aa";
+  }
+  .icon-new_home_card_operations_icon:before {
+    content: "\e9ab";
+  }
+  .icon-phone:before {
+    content: "\e9a0";
+  }
+  .icon-taxi:before {
+    content: "\e99f";
+  }
+  .icon-setting1:before {
+    content: "\e99e";
+  }
+  .icon-dark_mode:before {
+    content: "\e99c";
+  }
+  .icon-light_mode:before {
+    content: "\e99d";
+  }
+  .icon-tram:before {
+    content: "\e99b";
+  }
+  .icon-signal:before {
+    content: "\e99a";
+  }
+  .icon-trash_open:before {
+    content: "\e999";
+  }
+  .icon-payment_icons:before {
+    content: "\e998";
+  }
+  .icon-troy:before {
+    content: "\e997";
+  }
+  .icon-pdf_icon:before {
+    content: "\e994";
+  }
+  .icon-go_to_link:before {
+    content: "\e995";
+  }
+  .icon-document_icon:before {
+    content: "\e996";
+  }
+  .icon-ordu_belediye_logo:before {
+    content: "\e991";
+  }
+  .icon-ordumkart_header:before {
+    content: "\e992";
+  }
+  .icon-ordumkart_header_v2:before {
+    content: "\e993";
+  }
+  .icon-long_bus_icon:before {
+    content: "\e98b";
+  }
+  .icon-visa_mastercard_icon:before {
+    content: "\e98c";
+  }
+  .icon-bicycle_icon:before {
+    content: "\e98d";
+  }
+  .icon-bag_icon:before {
+    content: "\e98e";
+  }
+  .icon-pet_icon:before {
+    content: "\e98f";
+  }
+  .icon-air_conditioner_icon:before {
+    content: "\e990";
+  }
+  .icon-stop_alarm_on:before {
+    content: "\e989";
+  }
+  .icon-stop_alarm_off:before {
+    content: "\e98a";
+  }
+  .icon-no_location:before {
+    content: "\e988";
+  }
+  .icon-home_closest_icon:before {
+    content: "\e982";
+  }
+  .icon-home_poi_icon:before {
+    content: "\e983";
+  }
+  .icon-home_card_icon:before {
+    content: "\e984";
+  }
+  .icon-home_bus_icon:before {
+    content: "\e985";
+  }
+  .icon-home_alert_icon:before {
+    content: "\e986";
+  }
+  .icon-home_maps_icon:before {
+    content: "\e987";
+  }
+  .icon-home_logo_icon:before {
+    content: "\e981";
+  }
+  .icon-language:before {
+    content: "\e980";
+  }
+  .icon-about_linkedin:before {
+    content: "\e97f";
+  }
+  .icon-apple2:before {
+    content: "\e972";
+  }
+  .icon-google_play:before {
+    content: "\e973";
+  }
+  .icon-about_google:before {
+    content: "\e974";
+  }
+  .icon-about_youtube:before {
+    content: "\e975";
+  }
+  .icon-about_instagram:before {
+    content: "\e976";
+  }
+  .icon-about_twitter:before {
+    content: "\e977";
+  }
+  .icon-about_facebook:before {
+    content: "\e978";
+  }
+  .icon-alarm:before {
+    content: "\e979";
+  }
+  .icon-bus_type_payment:before {
+    content: "\e97a";
+  }
+  .icon-bus_type_whellchair:before {
+    content: "\e97b";
+  }
+  .icon-bus_type_dog:before {
+    content: "\e97c";
+  }
+  .icon-bus_type_bag:before {
+    content: "\e97d";
+  }
+  .icon-bus_type_bicycle:before {
+    content: "\e97e";
+  }
+  .icon-google:before {
+    content: "\e970";
+  }
+  .icon-facebook3:before {
+    content: "\e971";
+  }
+  .icon-visa_mastercard_logo:before {
+    content: "\e96e";
+  }
+  .icon-sadad_logo:before {
+    content: "\e96f";
+  }
+  .icon-walk_horizontal:before {
+    content: "\e96d";
+  }
+  .icon-transaction:before {
+    content: "\e96c";
+  }
+  .icon-sadad:before {
+    content: "\e96b";
+  }
+  .icon-map_start_point:before {
+    content: "\e928";
+  }
+  .icon-bkm:before {
+    content: "\e929";
+  }
+  .icon-check:before {
+    content: "\e92a";
+  }
+  .icon-credit_card:before {
+    content: "\e92b";
+  }
+  .icon-map_end_point:before {
+    content: "\e92c";
+  }
+  .icon-paypal2:before {
+    content: "\e92d";
+  }
+  .icon-place:before {
+    content: "\e92e";
+  }
+  .icon-qr:before {
+    content: "\e92f";
+  }
+  .icon-trash:before {
+    content: "\e930";
+  }
+  .icon-trip_line_icon:before {
+    content: "\e931";
+  }
+  .icon-flag:before {
+    content: "\e932";
+  }
+  .icon-map_list_empty_dot:before {
+    content: "\e933";
+  }
+  .icon-map_list_full_dot:before {
+    content: "\e934";
+  }
+  .icon-ticket:before {
+    content: "\e935";
+  }
+  .icon-trip_ferry:before {
+    content: "\e936";
+  }
+  .icon-trip_uber:before {
+    content: "\e937";
+  }
+  .icon-trip_walk:before {
+    content: "\e938";
+  }
+  .icon-walk2:before {
+    content: "\e939";
+  }
+  .icon-fav_empty:before {
+    content: "\e93a";
+  }
+  .icon-fav_full:before {
+    content: "\e93b";
+  }
+  .icon-reverse_v:before {
+    content: "\e93c";
+  }
+  .icon-share:before {
+    content: "\e93d";
+  }
+  .icon-trip_bus:before {
+    content: "\e93e";
+  }
+  .icon-trip_cycle:before {
+    content: "\e93f";
+  }
+  .icon-trip_metro:before {
+    content: "\e940";
+  }
+  .icon-trip_train:before {
+    content: "\e941";
+  }
+  .icon-arrow_down:before {
+    content: "\e942";
+  }
+  .icon-download:before {
+    content: "\e943";
+  }
+  .icon-map_set_pin:before {
+    content: "\e944";
+  }
+  .icon-reverse_h:before {
+    content: "\e945";
+  }
+  .icon-setting:before {
+    content: "\e946";
+  }
+  .icon-time2:before {
+    content: "\e947";
+  }
+  .icon-view:before {
+    content: "\e948";
+  }
+  .icon-faq:before {
+    content: "\e949";
+  }
+  .icon-hold_card:before {
+    content: "\e94a";
+  }
+  .icon-hold_nfc:before {
+    content: "\e94b";
+  }
+  .icon-hold_ticket:before {
+    content: "\e94c";
+  }
+  .icon-info2:before {
+    content: "\e94d";
+  }
+  .icon-map_layers:before {
+    content: "\e94e";
+  }
+  .icon-navigate:before {
+    content: "\e94f";
+  }
+  .icon-back:before {
+    content: "\e950";
+  }
+  .icon-button_arrow:before {
+    content: "\e951";
+  }
+  .icon-qr_phone:before {
+    content: "\e952";
+  }
+  .icon-home_poi:before {
+    content: "\e953";
+  }
+  .icon-list_bus:before {
+    content: "\e954";
+  }
+  .icon-list_kiosk:before {
+    content: "\e955";
+  }
+  .icon-list_place:before {
+    content: "\e956";
+  }
+  .icon-route_circle:before {
+    content: "\e957";
+  }
+  .icon-set_home:before {
+    content: "\e958";
+  }
+  .icon-set_work:before {
+    content: "\e959";
+  }
+  .icon-home_alerts:before {
+    content: "\e95a";
+  }
+  .icon-maps:before {
+    content: "\e95b";
+  }
+  .icon-maximize:before {
+    content: "\e95c";
+  }
+  .icon-minimize:before {
+    content: "\e95d";
+  }
+  .icon-search2:before {
+    content: "\e95e";
+  }
+  .icon-serch_line:before {
+    content: "\e95f";
+  }
+  .icon-tariff:before {
+    content: "\e960";
+  }
+  .icon-card2:before {
+    content: "\e961";
+  }
+  .icon-home_bus:before {
+    content: "\e962";
+  }
+  .icon-home_near_me:before {
+    content: "\e963";
+  }
+  .icon-menu_card:before {
+    content: "\e964";
+  }
+  .icon-menu_feedback:before {
+    content: "\e965";
+  }
+  .icon-menu_login:before {
+    content: "\e966";
+  }
+  .icon-menu_logout:before {
+    content: "\e967";
+  }
+  .icon-qr_card:before {
+    content: "\e968";
+  }
+  .icon-menu_profile:before {
+    content: "\e969";
+  }
+  .icon-menu_home:before {
+    content: "\e96a";
+  }
+  .icon-gaziantep_logo:before {
+    content: "\e927";
+  }
+  .icon-mowasalat_home:before {
+    content: "\e926";
+  }
+  .icon-karwa_bus:before {
+    content: "\e925";
+  }
+  .icon-mugla_kentkart:before {
+    content: "\e924";
+  }
+  .icon-mugla_belediye_logo:before {
+    content: "\e923";
+  }
+  .icon-mugla_belediye_text2:before {
+    content: "\e91f";
+  }
+  .icon-mugla_belediye_text:before {
+    content: "\e920";
+  }
+  .icon-mugla_text:before {
+    content: "\e921";
+  }
+  .icon-mugla_logo:before {
+    content: "\e922";
+  }
+  .icon-home:before {
+    content: "\e91e";
+  }
+  .icon-card_statement:before {
+    content: "\e90e";
+  }
+  .icon-receipt:before {
+    content: "\e90d";
+  }
+  .icon-lock:before {
+    content: "\e90a";
+  }
+  .icon-arrow_bold_left:before {
+    content: "\e90b";
+  }
+  .icon-arrow_bold_right:before {
+    content: "\e90c";
+  }
+  .icon-antalyakart_logo_1:before {
+    content: "\e908";
+  }
+  .icon-antalyakart_logo_2:before {
+    content: "\e909";
+  }
+  .icon-master_visa_2:before {
+    content: "\e902";
+  }
+  .icon-master_visa_1:before {
+    content: "\e903";
+  }
+  .icon-visa_2:before {
+    content: "\e904";
+  }
+  .icon-visa_1:before {
+    content: "\e905";
+  }
+  .icon-mastercard:before {
+    content: "\e906";
+  }
+  .icon-profile_2:before {
+    content: "\e907";
+  }
+  .icon-wheelchair:before {
+    content: "\e900";
+  }
+  .icon-pin:before {
+    content: "\e901";
+  }
+  .icon-cycle:before {
+    content: "\e631";
+  }
+  .icon-credit_card2:before {
+    content: "\e635";
+  }
+  .icon-dots:before {
+    content: "\e636";
+  }
+  .icon-edit:before {
+    content: "\e637";
+  }
+  .icon-kiosk:before {
+    content: "\e638";
+  }
+  .icon-masterpass2:before {
+    content: "\e639";
+  }
+  .icon-message:before {
+    content: "\e63a";
+  }
+  .icon-paypal_card:before {
+    content: "\e63b";
+  }
+  .icon-store:before {
+    content: "\e63c";
+  }
+  .icon-trip:before {
+    content: "\e63d";
+  }
+  .icon-others_horizontal:before {
+    content: "\e63e";
+  }
+  .icon-masterpass:before {
+    content: "\e632";
+  }
+  .icon-bkm_express:before {
+    content: "\e633";
+  }
+  .icon-paypal:before {
+    content: "\e634";
+  }
+  .icon-kart_text:before {
+    content: "\e603";
+  }
+  .icon-kent_text:before {
+    content: "\e604";
+  }
+  .icon-logo_wide:before {
+    content: "\e62a";
+  }
+  .icon-up_arrow:before {
+    content: "\e62b";
+  }
+  .icon-down_arrow:before {
+    content: "\e62c";
+  }
+  .icon-walk:before {
+    content: "\e62d";
+  }
+  .icon-square:before {
+    content: "\e62e";
+  }
+  .icon-area:before {
+    content: "\e62f";
+  }
+  .icon-museum:before {
+    content: "\e630";
+  }
+  .icon-qna:before {
+    content: "\e622";
+  }
+  .icon-checked:before {
+    content: "\e627";
+  }
+  .icon-unchecked:before {
+    content: "\e628";
+  }
+  .icon-profile:before {
+    content: "\e629";
+  }
+  .icon-active_stop_line_end:before {
+    content: "\e600";
+  }
+  .icon-active_stop_line_start:before {
+    content: "\e601";
+  }
+  .icon-stop_line_end:before {
+    content: "\e602";
+  }
+  .icon-stop_line_start:before {
+    content: "\e605";
+  }
+  .icon-stop_line:before {
+    content: "\e606";
+  }
+  .icon-balance_charge:before {
+    content: "\e607";
+  }
+  .icon-time:before {
+    content: "\e608";
+  }
+  .icon-active_stop_line:before {
+    content: "\e609";
+  }
+  .icon-route_type:before {
+    content: "\e60a";
+  }
+  .icon-no_fav:before {
+    content: "\e60b";
+  }
+  .icon-fav:before {
+    content: "\e60c";
+  }
+  .icon-location:before {
+    content: "\e60d";
+  }
+  .icon-location_arrow:before {
+    content: "\e60e";
+  }
+  .icon-search:before {
+    content: "\e60f";
+  }
+  .icon-qr_read:before {
+    content: "\e610";
+  }
+  .icon-train:before {
+    content: "\e611";
+  }
+  .icon-ship:before {
+    content: "\e612";
+  }
+  .icon-other:before {
+    content: "\e613";
+  }
+  .icon-metro:before {
+    content: "\e614";
+  }
+  .icon-busstop:before {
+    content: "\e615";
+  }
+  .icon-close:before {
+    content: "\e616";
+  }
+  .icon-how_to_go:before {
+    content: "\e617";
+  }
+  .icon-bus_info:before {
+    content: "\e618";
+  }
+  .icon-card_scan:before {
+    content: "\e619";
+  }
+  .icon-left_arrow:before {
+    content: "\e61a";
+  }
+  .icon-bus:before {
+    content: "\e61b";
+  }
+  .icon-right_arrow:before {
+    content: "\e61c";
+  }
+  .icon-endless_card:before {
+    content: "\e61d";
+  }
+  .icon-card:before {
+    content: "\e61e";
+  }
+  .icon-tl:before {
+    content: "\e61f";
+  }
+  .icon-personal_card:before {
+    content: "\e620";
+  }
+  .icon-logout:before {
+    content: "\e621";
+  }
+  .icon-info:before {
+    content: "\e623";
+  }
+  .icon-nfc:before {
+    content: "\e624";
+  }
+  .icon-logo:before {
+    content: "\e625";
+  }
+  .icon-menu:before {
+    content: "\e626";
+  }
+  .icon-refresh:before {
+    content: "\e825";
+  }
+  .icon-nfc_icon:before {
+    content: "\e91c";
+  }
+  .icon-true_icon:before {
+    content: "\e91d";
+  }
+  .icon-complete:before {
+    content: "\e91a";
+  }
+  .icon-error:before {
+    content: "\e91b";
+  }
+  .icon-circle:before {
+    content: "\e918";
+  }
+  .icon-warning1:before {
+    content: "\e919";
+  }
+  .icon-android:before {
+    content: "\e916";
+  }
+  .icon-apple:before {
+    content: "\e917";
+  }
+  .icon-share2:before {
+    content: "\e90f";
+  }
+  .icon-google-plus:before {
+    content: "\e910";
+  }
+  .icon-google-plus2:before {
+    content: "\e911";
+  }
+  .icon-facebook:before {
+    content: "\e912";
+  }
+  .icon-facebook2:before {
+    content: "\e913";
+  }
+  .icon-instagram:before {
+    content: "\e914";
+  }
+  .icon-twitter:before {
+    content: "\e915";
+  }
+  
